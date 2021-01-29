@@ -33,7 +33,7 @@ const Payment = () => {
         payment: data,
       };
       addNewOrder(newOrder);
-      history('/checkout/success');
+      history.push('/checkout/success');
     }
   };
 
